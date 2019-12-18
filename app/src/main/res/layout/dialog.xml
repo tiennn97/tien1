@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nhập các món ăn trong ngày hôm nay"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edittextdialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:maxLines="3"
+        android:padding="5dp" />
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_marginRight="30dp"
+            android:focusable="true"
+            android:id="@+id/buttondialogluu"
+            android:textSize="20sp"
+            android:text="Lưu"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:layout_marginLeft="30dp"
+            android:focusable="true"
+            android:id="@+id/buttondialogtrove"
+            android:textSize="20sp"
+            android:text="Trở về"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

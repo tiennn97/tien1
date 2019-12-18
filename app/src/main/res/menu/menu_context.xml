@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Thêm vào gio hàng"
+        android:id="@+id/menu_themvaogiohang"/>
+    <item android:title="Thêm ds thích"
+        android:id="@+id/menu_themvaodsthich"/>
+    <item android:title="Thêm ds không thích"
+        android:id="@+id/menu_themvaodskhongthich"/>
+</menu>
